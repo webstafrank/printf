@@ -6,8 +6,17 @@
 #include <unstdio.h>
 #include <stdlib.h>
 
-int _putchar(char c);
+
+int printf_char(va_list val_1);
+int print_string(va_list val1);
 int _printf(const char *format, ...);
+int _strlen(char *txt);
+int _strlen(const char *txt);
+int print_percent(void);
+
+
+
+int _putchar(char c);
 int print_char(va_list c);
 int print_string(va_list s);
 int print_int(va_list i);
